@@ -5,7 +5,7 @@
       "title": "210+ cities LIVE with 10BedICU across India",
       "description": "Improving health infrastructure with digital solutions.",
       "category": "What's New",
-      "image": "/src/assets/images/news-1.png",
+      "image": "/images/news-1.png",
       "link": "#",
       "price": "Free"
     },
@@ -14,7 +14,7 @@
       "title": "2 Bn COVID-19 vaccination certificates issued",
       "description": "Scaling public services through DIGIT platform.",
       "category": "Articles",
-      "image": "/src/assets/images/news-2.png",
+      "image": "/images/news-2.png",
       "link": "#",
       "price": "Free"
     },
@@ -23,7 +23,7 @@
       "title": "Unlocking Digital Transformation in Public Finance",
       "description": "A guide for policymakers and developers.",
       "category": "Whitepapers",
-      "image": "/src/assets/images/news-generic-2.png",
+      "image": "/images/news-generic-1.png",
       "link": "#",
       "price": "Free"
     },
@@ -32,7 +32,7 @@
       "title": "Scaling Impact with Open Source DPGs",
       "description": "How eGov is building for the next billion.",
       "category": "Case Studies",
-      "image": "/src/assets/images/news-3.png",
+      "image": "/images/news-3.png",
       "link": "#",
       "price": "Free"
     },
@@ -41,7 +41,7 @@
       "title": "Strategy for Digital Public Goods",
       "description": "A comprehensive framework for governments.",
       "category": "Strategy Papers",
-      "image": "/src/assets/images/digit-bg.png",
+      "image": "/images/digit-bg.png",
       "link": "#",
       "price": "Free"
     },
@@ -50,7 +50,7 @@
       "title": "Videos: DIGIT in Action",
       "description": "Watch how our platform is changing lives.",
       "category": "Videos",
-      "image": "/src/assets/images/news-generic-1.png",
+      "image": "/images/news-generic-1.png",
       "link": "#",
       "price": "Free"
     }
