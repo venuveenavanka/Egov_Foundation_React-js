@@ -17,7 +17,6 @@ const Approaches = () => {
       <div className="container reveal fade-up">
         <div className="approaches-card border-0 bg-white">
           <div className="row g-4 align-items-center">
-            {/* Sidebar Column */}
             <div className="col-lg-4 px-4 px-lg-5 py-4">
               <span
                 className="text-muted mb-1 d-block text-uppercase fw-bold"
@@ -45,10 +44,8 @@ const Approaches = () => {
               </div>
             </div>
 
-            {/* Metric Cards Column */}
             <div className="col-lg-8">
               <div className="row g-4">
-                {/* Metric Card 1 */}
                 <div className="col-6 col-md-6">
                   <div
                     className="approaches-inner-card-new shadow-sm"
@@ -81,7 +78,6 @@ const Approaches = () => {
                   </div>
                 </div>
 
-                {/* Metric Card 2 */}
                 <div className="col-6 col-md-6">
                   <div
                     className="approaches-inner-card-new shadow-sm"

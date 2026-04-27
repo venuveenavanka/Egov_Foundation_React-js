@@ -5,13 +5,11 @@ import digitLogo from "../assets/images/digit-n.png";
 const DIGIT = () => {
   return (
     <section className="digit-section-new">
-      {/* ── Desktop (lg+): person image absolute, overflows top of section ── */}
       <div className="digit-person-wrapper d-none d-lg-flex">
         <img src={digitPerson} alt="DIGIT User" className="digit-person-img" />
       </div>
 
       <div className="container digit-inner-container">
-        {/* ── Tablet (md–lg): image shown right, inline with content ── */}
         <div className="digit-tablet-row d-none d-md-flex d-lg-none align-items-center">
           <div className="digit-text-col">
             <img
@@ -43,7 +41,6 @@ const DIGIT = () => {
           </div>
         </div>
 
-        {/* ── Mobile (< md): image on top, content below ── */}
         <div className="d-flex d-md-none flex-column align-items-center digit-mobile-wrap">
           <img
             src={digitPerson}
@@ -73,7 +70,6 @@ const DIGIT = () => {
           </div>
         </div>
 
-        {/* ── Desktop (lg+): text only, image is absolute ── */}
         <div className="digit-desktop-row d-none d-lg-flex align-items-center">
           <div className="digit-text-col z-index-2">
             <img
@@ -96,7 +92,6 @@ const DIGIT = () => {
               Explore the platform
             </a>
           </div>
-          {/* Spacer so text stays on left */}
           <div className="col-lg-5" />
         </div>
       </div>
