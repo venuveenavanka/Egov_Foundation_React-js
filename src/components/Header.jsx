@@ -192,7 +192,6 @@ const Header = () => {
             className={`collapse navbar-collapse ${isMenuOpen ? "show" : ""}`}
             id="navbarNav"
           >
-            {/* Mobile Close Button */}
             <div className="d-lg-none d-flex justify-content-between align-items-center p-3 mb-4 border-bottom">
               <img src={logo} alt="eGov Logo" style={{ height: "40px" }} />
               <button

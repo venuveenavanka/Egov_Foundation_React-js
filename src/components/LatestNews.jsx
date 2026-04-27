@@ -12,7 +12,6 @@ const LatestNews = () => {
       setLoading(true);
       try {
         const data = await fetchNews();
-        // Since we want "All" as an option, we don't need to filter by default "What's New"
         setNews(data);
       } catch (error) {
         console.error("Error fetching news:", error);
@@ -46,7 +45,6 @@ const LatestNews = () => {
   return (
     <section className="latest-news-section bg-white">
       <div className="container">
-        {/* Search and Filters Header */}
         <div className="row mb-5 align-items-center g-3">
           <div className="col-lg-6 col-md-12">
             <div className="search-box-custom">
@@ -77,7 +75,6 @@ const LatestNews = () => {
           </div>
         </div>
 
-        {/* Categories as Pills (Optional secondary filter) */}
         <div className="latest-filters d-none d-md-flex flex-wrap justify-content-start mb-5">
           {categories.map((filter) => (
             <button
@@ -90,7 +87,6 @@ const LatestNews = () => {
           ))}
         </div>
 
-        {/* News/Product Grid */}
         {loading ? (
           <div className="text-center py-5">
             <div className="spinner-border text-primary" role="status">
@@ -142,7 +138,6 @@ const LatestNews = () => {
           </div>
         )}
 
-        {/* See All Button */}
         <div className="d-flex justify-content-start">
           <a href="#" className="btn btn-see-all-teal">
             See all

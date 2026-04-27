@@ -54,7 +54,6 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Bottom Bar - Full Width */}
       <div className="bottom-bar-new py-3">
         <div className="container d-flex flex-column flex-md-row justify-content-between align-items-center">
           <div className="small mb-2 mb-md-0">
